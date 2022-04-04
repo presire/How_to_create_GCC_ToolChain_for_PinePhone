@@ -1,4 +1,4 @@
-# How to create GCC ToolChain for PinePhone (us Qt Cross-Compile)
+# How to create GCC ToolChain for PinePhone<br>for Qt Cross-Compile
 Revision Date : 2022/04/04<br>
 <br><br>
 
@@ -13,8 +13,9 @@ My PinePhone's OS is Mobian(Phosh) and Manjaro ARM(Phosh).
 When building GCC ToolChain, please adapt to each user's environment.  
 <br>
 *Note:*  
-*I have confirmed build tests with SUSE Enterprise 15 SP3 and openSUSE Leap 15.3,*  
-*GCC 10.2, GDB 11.2 and Binutils 2.38*  
+*I have confirmed build tests with SUSE Enterprise Linux 15 SP3 and openSUSE Leap 15.3 on Host PC,*  
+*Manjaro ARM and Mobian on PinePhone(Target),*  
+*GCC 10.2, GCC 11.2, GDB 11.2 and Binutils 2.38*  
 <br><br>
 
 # 1. SSH Setting (PinePhone)
@@ -117,7 +118,7 @@ It is necessary to synchronize with the root directory of PinePhone, create the 
 <br><br>
 
 
-# 6. Install GCC ToolChain
+# 6. Install GCC ToolChain (Linux PC)
 ## 6.1. Download and Install Binutils from Source Code (Linux PC)
 Access the official Binutils Web site to download and extract the Binutils source code.  
 https://ftp.gnu.org/gnu/binutils/  

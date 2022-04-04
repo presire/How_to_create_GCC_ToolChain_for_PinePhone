@@ -51,7 +51,7 @@ Configure the SSH Server to start automatically, and start the SSH Server.
 <br>
 
 
-# 2. Install necessary dependencies for PinePhone
+# 2. Install necessary dependencies (PinePhone)
 Install the dependencies required to build the GCC ToolChain.  
 In Addition, you will also install the libraries required for Qt Cross-Compilation.  
 

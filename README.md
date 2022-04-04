@@ -189,8 +189,10 @@ Build and install GDB.
 
     mkdir build && cd build
     
-    [ -z "${PYTHON}" ] && export PYTHON=$(command -s python3); \
-    PYTHON_LIBDIR=$("${PYTHON}" -c "import sysconfig; print(sysconfig.get_config_var('LIBDIR'))"); \
+    [ -z "${PYTHON}" ] && export PYTHON=$(command -s python3)
+    
+    export PYTHON_LIBDIR=$("${PYTHON}" -c "import sysconfig; print(sysconfig.get_config_var('LIBDIR'))")
+
     export PATH="/<Binutils's Install Directory>/bin:$PATH" && \
     ../configure                            \
     --prefix=<Binutils's Install Directory> \

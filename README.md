@@ -111,9 +111,9 @@ It is necessary to synchronize with the root directory of PinePhone, create the 
 # 5. Install GCC ToolChain build necessary dependencies (Linux PC)
     sudo zypper install \
        patterns-base-basesystem patterns-devel-base-devel_basis \
-       patterns-devel-C-C++-devel_C_C++ gcc gcc-c++ \
-       make tar git pkg-config m4 gperf gawk bison flex ncurses-devel \
-       gmp-devel mpfr-devel mpc-devel isl-devel python3-devel
+       patterns-devel-C-C++-devel_C_C++ gcc gcc-c++ gawk \
+       make tar git pkg-config m4 gperf gawk bison flex expect expect-devel \
+       ncurses-devel gmp-devel mpfr-devel mpc-devel isl-devel python3-devel
 <br><br>
 
 
